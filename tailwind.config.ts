@@ -47,6 +47,18 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        growth: {
+          DEFAULT: "hsl(var(--growth))",
+          foreground: "hsl(var(--growth-foreground))",
+        },
+        fulfilment: {
+          DEFAULT: "hsl(var(--fulfilment))",
+          foreground: "hsl(var(--fulfilment-foreground))",
+        },
+        support: {
+          DEFAULT: "hsl(var(--support))",
+          foreground: "hsl(var(--support-foreground))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +69,17 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-growth': 'var(--gradient-growth)',
+        'gradient-fulfilment': 'var(--gradient-fulfilment)',
+        'gradient-support': 'var(--gradient-support)',
+      },
+      boxShadow: {
+        'soft': 'var(--shadow-soft)',
+        'card': 'var(--shadow-card)',
+        'hero': 'var(--shadow-hero)',
       },
       borderRadius: {
         lg: "var(--radius)",
