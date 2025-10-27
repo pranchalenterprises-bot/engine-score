@@ -4,7 +4,7 @@ import heroDashboard from "@/assets/hero-dashboard.jpg";
 
 export const HeroSection = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-background via-background to-primary/5 py-20 lg:py-32">
+    <section className="relative overflow-hidden bg-gradient-to-br from-background via-background to-primary/10 py-20 lg:py-32">
       <div className="container mx-auto px-6 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
           <div className="space-y-8">

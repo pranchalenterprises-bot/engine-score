@@ -2,7 +2,7 @@ import { Gauge } from "lucide-react";
 
 export const Footer = () => {
   return (
-    <footer className="border-t border-border bg-secondary/30">
+    <footer className="border-t border-border bg-secondary/50">
       <div className="container mx-auto px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-4 gap-12">
           <div className="space-y-4">
